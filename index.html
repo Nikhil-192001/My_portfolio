@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>PORTFOLIOS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Include Boxicons stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">portfolio</a>
+      <nav class="navbar">
+        <a href="#home" class="Active">Home</a>
+        <a href="#About">About</a>
+        <a href="#Services">Services</a>
+        <a href="#skills">My Skills</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </header>
+
+    <section1 class="home" id="home">
+      <div class="home-content">
+        <div class="gallery">
+          <img
+            src="pic3.png"
+            alt="Image"
+            class="thumbnail"
+            onclick="openPopup()"
+          />
+          <div class="popup-overlay" id="popup-overlay"></div>
+        </div>
+
+        <h3>Hello, It's Me</h3>
+        <h1>Nikhil Gupta</h1>
+        <h3>And I'm a <span>Full Stack Developer</span></h3>
+        <p>
+          Hello, I'm Nikhil Gupta, a full-stack developer passionate about
+          creating seamless web experiences. With expertise in front-end
+          technologies like React.js and back-end frameworks like Node.js, I
+          specialize in crafting intuitive interfaces and robust server-side
+          solutions. Let's build something great together!
+        </p>
+        <div class="social-media">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-github"></a>
+        </div>
+        <br /><br />
+
+        <a href="nikhilcv.pdf" class="btn">Download CV</a>
+      </div>
+    </section1>
+
+    <!-- About Section -->
+    <section class="About" id="About">
+      <div class="gallery2">
+        <img
+          src="card1.jpg"
+          alt="Image"
+          class="thumbnail1"
+          onclick="openPopup()"
+        />
+        <div class="popup-overlay" id="popup-overlay"></div>
+      </div>
+      <div class="About">
+        <h1>About Us</h1>
+        <br />
+        <h3><span>Full Stack Developer</span></h3>
+        <br />
+        <p>
+          As a full-stack developer, I thrive on creating seamless and dynamic
+          web experiences. With expertise in both front-end and back-end
+          technologies, I enjoy crafting intuitive user interfaces and robust
+          server-side architectures. My passion lies in problem-solving and
+          continuously learning new technologies to deliver innovative
+          solutions. Let's build something remarkable together.
+        </p>
+        <br />
+      </div>
+      <div class="home-img">
+        <img src="#" alt="" />
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="Services" id="Services">
+      <div class="Services">
+        <h1>My Services</h1>
+      </div>
+      <!-- Card container -->
+      <div class="container">
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="card1.jpg" />
+              <h3>Frontend Developer</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>
+                Frontend development entails crafting the user interface and
+                experience of websites and apps, employing HTML, CSS, and
+                JavaScript for visual and interactive elements.
+              </p>
+              <a href="https://www.youtube.com/@ProgrammingHub117">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="card2.jpg" />
+              <h3>Backend Developer</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>
+                Backend development involves building and maintaining the
+                server-side logic and database connections of websites and
+                applications, ensuring data handling and functionality behind
+                the scenes.
+              </p>
+              <a href="https://github.com/Nikhil-192001">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="card3.jpg" />
+              <h3>WordPress Developer</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>
+                WordPress is a widely-used content management system (CMS) that
+                simplifies website creation and management, offering
+                customizable themes and plugins for various functionalities.
+              </p>
+              <a href="https://github.com/Nikhil-192001">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="skills">
+        <h1>My Skills</h1>
+        <ul>
+          <li>
+            <h3>HTML</h3>
+            <div class="bar html"><span></span></div>
+          </li>
+          <li>
+            <h3>CSS</h3>
+            <div class="bar css"><span></span></div>
+          </li>
+          <li>
+            <h3>JAVASCRIPT</h3>
+            <div class="bar javascript"><span></span></div>
+          </li>
+          <li>
+            <h3>Php</h3>
+            <div class="bar Php"><span></span></div>
+          </li>
+          <li>
+            <h3>Java</h3>
+            <div class="bar Java"><span></span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <div class="container1" id="Contact">
+      <form action="#" class="form">
+        <h2>Contact Us</h2>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="Number">Number:</label>
+          <input type="text" id="Number" name="Number" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <footer>
+      <p>@copy right. &copy; 2024</p>
+      <p>Created by <a href="#Home">Nikhil</a></p>
+    </footer>
+  </body>
+</html>
